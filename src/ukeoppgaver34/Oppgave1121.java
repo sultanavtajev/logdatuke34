@@ -3,7 +3,7 @@ package ukeoppgaver34;
 //Min metode som henter posisijonen til den laveste verdien i et array og skriver denne ut til console
 
 public class Oppgave1121 {
-    static int min(int[] a) {
+    public static int min(int[] a) {
         int minst = a[0];
 
         for (int i = 1; i < a.length; i++) {
