@@ -20,7 +20,7 @@ public class Oppgave1135 {
         for (int i = 1; i < a.length; i++) { // (1) tilordning + (n) sammenligninger + (n-1) addisjoner
             if (a[i] < min) { // (n-1) utførelse av funksjon*(1 indeksering + 1 indeksering + 1 sammenligning) = 3(n-1);
                 min = a[i]; // (x) tilordning
-                minindex = i; // (1) tilordning
+                minindex = i;
             }
             if (a[i] > maks) { // (n-1) utførelse av funksjon*(1 indeksering + 1 indeksering + 1 sammenligning) = 3(n-1)
                 maks = a[i]; // (x) tilordning
